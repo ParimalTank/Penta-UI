@@ -1,0 +1,59 @@
+@import "variable";
+@import "mixin";
+@import "shimmer";
+
+.App {
+  //   max-width: 1304px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy-Heavy", sans-serif;
+  font-family: "Gilroy-Light", sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.home-img {
+  background: url("../images/Rectangle\ 1441.png") no-repeat center center/cover;
+  height: 1084px;
+  width: 100%;
+}
+
+.logo-name {
+  cursor: pointer;
+  text-decoration: none;
+  color: $white;
+
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+}
+
+.nav-home {
+  // display: flex;
+  // justify-content: space-between;
+}
+
+.home-nav {
+  display: flex;
+  position: absolute;
+}
+
+.navbar-texts {
+  ul {
+    li {
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+}
+
+.home-cart {
+  span {
+    position: absolute;
+  }
+}
+
+.navbar-menu {
+   gap: 8px;
+}
