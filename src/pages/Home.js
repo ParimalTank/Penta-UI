@@ -75,7 +75,7 @@ const Home = () => {
 
             <nav className="navbar navbar-expand-md">
               <div className="container-fluid">
-                <a className="navbar-brand abs logo-name text-white" href="#">
+                <a className="navbar-brand abs logo-name text-white" href="#1">
                   Panto
                 </a>
                 <button
@@ -141,12 +141,12 @@ const Home = () => {
                   </ul> */}
                 </div>
 
-                <div className="home-cart">
+                {/* <div className="home-cart">
                   <img src={bag}></img>
                   <span className="badge rounded-circle text-bg-warning">
                     0
                   </span>
-                </div>
+                </div> */}
               </div>
             </nav>
 
