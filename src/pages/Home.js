@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import bag from "../assets/images/Bag.png";
+import { Col, Row } from "reactstrap";
 
 const Home = () => {
 
@@ -151,8 +152,25 @@ const Home = () => {
             </nav>
 
           </div>
+
+        <div className="home-text">
+              <p className="text-white home-main-text">Make Your Interior More <br/> Minimalistic & Modern</p>
+              <p className="text-white home-sub-text">Turn your room with panto into a lot more minimalist <br/> and modern with ease and speed</p>
+        </div>
+         
         </div>
       </div>
+
+      <div>
+            <Row>
+               <Col><h3>Why Choosing Us</h3></Col>
+               <Col></Col>
+               <Col></Col>
+               <Col></Col>
+            </Row>
+            
+          </div>
+
     </section>
   );
 };
